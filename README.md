@@ -2,6 +2,16 @@
 
 A full-stack machine learning web application that analyzes YouTube trending videos.
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e63ba8ff-282a-4baa-b33d-9ba69d53f1d5" width="300"/>
+  <img src="https://github.com/user-attachments/assets/f4fcf54c-b770-49d5-b35d-85e5ad277742" width="300"/>
+  <img src="https://github.com/user-attachments/assets/your-third-image" width="300"/>
+</p>
+
+
+## Vercel Link :
+https://vercel.com/armaans-projects-0b9ca4a9/yt
+
 ## 🚀 Quick Start (Local)
 
 ```bash
