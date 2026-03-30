@@ -1,0 +1,35 @@
+# How to Run the YT TrendLens Project
+
+This project contains a Next.js frontend and a FastAPI (Python) backend. A single shell script is provided to start both servers automatically.
+
+## Prerequisites
+- Node.js and npm installed
+- Python 3 installed
+- Terminal access
+
+## Instructions
+
+1. Open your terminal.
+2. Navigate to the project directory:
+   cd "/Users/apple/Downloads/youtube analysis"
+
+3. Run the startup script:
+   bash start.sh
+
+The script will automatically:
+- Create a Python virtual environment (.venv) if one doesn't exist
+- Install the required Python dependencies for the backend
+- Start the FastAPI backend on port 8000
+- Install Node.js dependencies for the frontend if needed
+- Start the Next.js frontend development server on port 3000
+
+## Accessing the Application
+
+Once the script shows that both servers are running, open your web browser and go to:
+- Frontend Application: http://localhost:3000
+- Backend API (FastAPI): http://localhost:8000
+- Interactive API Documentation: http://localhost:8000/docs
+
+## Stopping the Application
+
+To stop both the frontend and backend servers, simply press `Ctrl + C` in the terminal where the script is running.
