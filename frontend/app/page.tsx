@@ -5,7 +5,7 @@ import { useDropzone } from 'react-dropzone'
 import axios from 'axios'
 import toast from 'react-hot-toast'
 
-const API = 'http://localhost:8000'
+const API = process.env.NEXT_PUBLIC_API_URL || 'https://yt-analytics-ml.onrender.com'
 
 const TABS = [
   { id: 'overview', label: 'Overview', icon: '📊' },
