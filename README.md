@@ -12,7 +12,7 @@ A full-stack machine learning web application that analyzes YouTube trending vid
 
 
 ## Vercel Link :
-https://yt-gamma-inky.vercel.app/
+https://yt-analytics-ml.vercel.app/
 
 ## 🚀 Quick Start (Local)
 
